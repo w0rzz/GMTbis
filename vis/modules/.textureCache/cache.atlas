@@ -1,0 +1,20 @@
+
+cache.png
+size: 512,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+BIG_grass
+  rotate: false
+  xy: 2, 2
+  size: 240, 80
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+Triston
+  rotate: false
+  xy: 244, 18
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
