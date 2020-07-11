@@ -5,12 +5,11 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import javafx.concurrent.WorkerStateEvent;
 
 import static panic.game.World.mainWorld;
 
 public class GameClass extends ApplicationAdapter {
-    SpriteBatch batch;
+
 
 
     @Override
@@ -29,6 +28,5 @@ public class GameClass extends ApplicationAdapter {
 
     @Override
     public void dispose() {
-        batch.dispose();
     }
 }
