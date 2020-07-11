@@ -1,4 +1,4 @@
-package panic.game;
+0package panic.game;
 
 import actors.Plateform;
 import com.badlogic.gdx.graphics.Texture;
@@ -14,11 +14,11 @@ public class TextureLoader {
     }
 
     private static void loadTextureActors(){
-        Player = new Texture("Triston.png");
+        Player = new Texture("core/assets/Triston.png");
     }
 
 
     private static void loadTextureEnvironment() {
-        BigGrass = new Texture("BIG_grass.png");
+        BigGrass = new Texture("core/assets/BIG_grass.png");
     }
 }
